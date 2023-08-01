@@ -1,0 +1,7 @@
+change $CPOHOME in the makefile, then make 
+
+usage:
+./cpo_sched <type>[s] <BENCHNAME> <time limit in seconds>
+
+where "type" is in {jsp, jla, jet, dyn, osp, sds, jtl, now}
+the optional "s" indicates whether the "sequence" branching should be used 

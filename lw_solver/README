@@ -1,0 +1,16 @@
+Warning: does not compile with clang
+
+to build:
+$ make
+to run:
+$ bin/scheduler <BENCHNAME> -type <one in {osp,jsp,jla,jtl,now,dyn,jet,sds}> 
+
+osp: Open-shop instances (Taillard format)
+jsp: Job-shop instances (Taillard format)
+jla: Job-shop instances (Lawrence format)
+jtl: Job-shop with maximum time lags (adapted Lawrence format)
+now: Job-shop with no time lag (Lawrence format)
+dyn/jet: Job-shop with minimization of earliness/tardiness (instances from Danna & Perron)
+sds: Job-shop with sequence dependent setup times
+
+
