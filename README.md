@@ -5,4 +5,5 @@ and old version of IBM ILOG CP Optimizer (https://www.ibm.com/products/ilog-cple
 
 Folder cpojsp contains code used for running IBM ILOG CP Optimizer solver with different scheduling models as discussed in paper,
 and similarly folder lw_solver contains code used for running the Mistral solver with different scheduling models.
+Each folder contains solver specific README.
 Note code compatibility with either solver has not been explicitly maintained as of paper publications.
